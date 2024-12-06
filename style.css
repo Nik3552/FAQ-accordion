@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans";
+}
+
+@media screen and (min-width: 769px){
+    body{
+        background-color: hsl(275, 100%, 97%);
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);;
+        padding: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 10px;
+    }
+    
+    .container div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5em;
+    }
+    
+    .container div img{
+        float: right;
+        padding-left: 15px;
+    }
+
+    .container div img:hover{
+        cursor: pointer;
+    }
+    
+    .container div p{
+        white-space: nowrap;
+        font-weight: 700;
+    }
+    
+    .container div p:hover{
+        color: hsl(292, 79%, 62%);
+        cursor: pointer;
+    }
+    
+    .container .header{
+        justify-content: flex-start;
+    }
+    
+    .container .header h1{
+        padding-left: 15px;
+    }
+    
+    .container .header img{
+        padding: 0;
+    }
+    
+    .container > p{
+        padding: 0.5em;
+        font-weight: 400;
+        color: hsl(292, 16%, 49%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: hsl(275, 100%, 97%);
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);;
+        padding: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+        white-space: wrap;
+    }
+    
+    .container div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5em;
+    }
+    
+    .container div img{
+        float: right;
+        padding-left: 15px;
+    }
+    
+    .container div p{
+        white-space: wrap;
+        font-weight: 700;
+    }
+    
+    .container div p:hover{
+        color: hsl(292, 79%, 62%);
+        cursor: pointer;
+    }
+    
+    .container .header{
+        justify-content: flex-start;
+    }
+    
+    .container .header h1{
+        padding-left: 15px;
+    }
+    
+    .container .header img{
+        padding: 0;
+    }
+    
+    .container > p{
+        padding: 0.5em;
+        font-weight: 400;
+        color: hsl(292, 16%, 49%);
+    }
+}
+
+@media screen and (max-width: 545px){
+    body{
+        background-color: hsl(275, 100%, 97%);
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+        white-space: wrap;
+    }
+    
+    .container div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5em;
+    }
+    
+    .container div img{
+        float: right;
+        padding-left: 15px;
+    }
+    
+    .container div p{
+        white-space: wrap;
+        font-weight: 700;
+    }
+    
+    .container div p:hover{
+        color: hsl(292, 79%, 62%);
+        cursor: pointer;
+    }
+    
+    .container .header{
+        justify-content: flex-start;
+    }
+    
+    .container .header h1{
+        padding-left: 15px;
+    }
+    
+    .container .header img{
+        padding: 0;
+    }
+    
+    .container > p{
+        padding: 0.5em;
+        font-weight: 400;
+        color: hsl(292, 16%, 49%);
+    }
+}
